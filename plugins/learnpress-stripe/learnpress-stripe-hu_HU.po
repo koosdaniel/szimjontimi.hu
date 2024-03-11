@@ -21,94 +21,96 @@ msgstr ""
 
 #. Plugin Name of the plugin
 msgid "LearnPress - Stripe Payment"
-msgstr ""
+msgstr "LearnPress - Stripe fizetés"
 
 #. Plugin URI of the plugin
 msgid "http://thimpress.com/learnpress"
-msgstr ""
+msgstr "http://thimpress.com/learnpress"
 
 #. Description of the plugin
 msgid "Stripe payment gateway for LearnPress."
-msgstr ""
+msgstr "Stripe fizetési átjáró a LearnPress-hez."
 
 #. Author of the plugin
 msgid "ThimPress"
-msgstr ""
+msgstr "ThimPress"
 
 #. Author URI of the plugin
 msgid "http://thimpress.com"
-msgstr ""
+msgstr "http://thimpress.com"
 
 #: config/settings.php:11
 msgid "Enable"
-msgstr ""
+msgstr "Engedélyezés"
 
 #: config/settings.php:18
 msgid "Title"
-msgstr ""
+msgstr "Cím"
 
 #: config/settings.php:19
 msgid "Stripe"
-msgstr ""
+msgstr "Stripe"
 
 #: config/settings.php:34
 msgid "Redirect Payment to Stripe Page"
-msgstr ""
+msgstr "Átirányítás a Stripe oldalráa fizetéshez"
 
 #: config/settings.php:51
 msgid "Description"
-msgstr ""
+msgstr "Leírás"
 
 #: config/settings.php:52
 msgid "Pay with Stripe"
-msgstr ""
+msgstr "Fizetés Stripe-pal"
 
 #: config/settings.php:70
 msgid "Live secret key"
-msgstr ""
+msgstr "Éles titkos kulcs"
 
 #: config/settings.php:91
 msgid "Live publish key"
-msgstr ""
+msgstr "Éles publikus kulcs"
 
 #: config/settings.php:111
 msgid "Enable test mode"
-msgstr ""
+msgstr "Teszt üzemmód engedélyezése"
 
 #: config/settings.php:128
 msgid "Test secret key"
-msgstr ""
+msgstr "Teszt titkos kulcs"
 
 #: config/settings.php:149
 msgid "Test publish key"
-msgstr ""
+msgstr "Teszt publikus kulcs"
 
 #: inc/class-lp-gateway-stripe.php:65
 msgid "Make a payment with Stripe."
-msgstr ""
+msgstr "Fizetés Stripe-pal."
 
 #: inc/class-lp-gateway-stripe.php:177
 msgid "Order not found!"
-msgstr ""
+msgstr "Rendelés nem található!"
 
 #: inc/class-lp-gateway-stripe.php:187
 msgid "Redirecting to Stripe."
-msgstr ""
+msgstr "Átirányítás a Stripe-hoz."
 
 #: inc/class-lp-gateway-stripe.php:205
 msgid "The payment is processing."
-msgstr ""
+msgstr "A fizetés folyamatban van."
 
 #: inc/class-lp-gateway-stripe.php:237
 msgid "Order %s"
-msgstr ""
+msgstr "Rendelés %s"
 
 #: templates/form.php:19
 msgid "You will be redirected to Stripe to complete your payment."
-msgstr ""
+msgstr "Átirányítjuk a Stripe-hoz a fizetés befejezéséhez."
 
 #: templates/form.php:30
 msgid ""
 "Test mode is enabled. You can use the card number 4242424242424242 with any "
 "CVC and a valid expiration date for testing purpose."
 msgstr ""
+"A teszt üzemmód engedélyezve van. A 4242424242424242 kártyaszámot lehet "
+"használni bármilyen CVC-vel és érvényes lejárati dátummal tesztelés céljából."
