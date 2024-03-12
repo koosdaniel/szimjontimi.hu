@@ -4,17 +4,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LearnPress 4.2.6\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/learnpress\n"
-"Last-Translator: Szimjon Timi\n"
+"Last-Translator: Koós Dániel\n"
 "Language-Team: Magyar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-01-29T09:55:55+03:00\n"
-"PO-Revision-Date: 2024-02-01 08:44+0000\n"
+"PO-Revision-Date: 2024-03-12 11:26+0000\n"
 "X-Generator: Loco https://localise.biz/\n"
 "X-Domain: learnpress\n"
-"\n"
-"Language: hu_HU\n"
+"Language: hu-HU\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Loco-Version: 2.6.6; wp-6.4.3"
 
@@ -24,11 +23,15 @@ msgstr "Kurzus Előrehaladás Visszaállítása"
 
 #: assets/js/dist/frontend/quiz.min.js:120
 msgid "This action will reset course progress of all users who have enrolled."
-msgstr "Ez a művelet visszaállítja azoknak a felhasználóknak a kurzus előrehaladását, akik beiratkoztak."
+msgstr ""
+"Ez a művelet visszaállítja azoknak a felhasználóknak a kurzus előrehaladását,"
+" akik beiratkoztak."
 
 #: assets/js/dist/frontend/quiz.min.js:121
 msgid "Search results only show if courses have user data."
-msgstr "A keresési eredmények csak akkor jelennek meg, ha a kurzusoknak vannak felhasználói adatai."
+msgstr ""
+"A keresési eredmények csak akkor jelennek meg, ha a kurzusoknak vannak "
+"felhasználói adatai."
 
 #: assets/js/dist/frontend/quiz.min.js:124
 msgid "Search course by name"
@@ -48,13 +51,14 @@ msgstr "Azonosító"
 msgid "Name"
 msgstr "Név"
 
-#: assets/js/dist/frontend/quiz.min.js:156 inc/admin/lp-admin-functions.php:961
+#: assets/js/dist/frontend/quiz.min.js:156
+#: inc/admin/lp-admin-functions.php:961
 #: inc/admin/views/statistics-bk/courses.php:8
 #: inc/admin/views/statistics-bk/general.php:8
 #: inc/admin/views/statistics-bk/orders.php:8
 #: inc/admin/views/statistics-bk/users.php:8
-#: inc/admin/views/statistics/users.php:35 inc/custom-post-types/course.php:391
-#: inc/custom-post-types/course.php:408
+#: inc/admin/views/statistics/users.php:35
+#: inc/custom-post-types/course.php:391 inc/custom-post-types/course.php:408
 msgid "Students"
 msgstr "Diákok"
 
@@ -89,7 +93,8 @@ msgid ""
 "This is an editor placeholder for the Archive Course page. Content will "
 "render content of list courses. Should be not remove it"
 msgstr ""
-"Ez egy szerkesztőhelykitöltő az Archivált kurzus oldalához. A tartalom a kurzusok listáját jeleníti meg. Ne távolítsd el."
+"Ez egy szerkesztőhelykitöltő az Archivált kurzus oldalához. A tartalom a "
+"kurzusok listáját jeleníti meg. Ne távolítsd el."
 
 #: assets/js/dist/frontend/quiz.min.js:13
 msgid "Item Curriculum Course"
@@ -100,8 +105,8 @@ msgid ""
 "This is an editor placeholder for the Item Curriculum Course page. Content "
 "will render content of single item curriculum course. Should be not remove it"
 msgstr ""
-"Ez egy szerkesztőhelykitöltő a Tananyag Elem Kurzus oldalához. A tartalom a kiválasztott tananyagelem kurzus tartalmát jeleníti meg. "
-"Ne távolítd el."
+"Ez egy szerkesztőhelykitöltő a Tananyag Elem Kurzus oldalához. A tartalom a "
+"kiválasztott tananyagelem kurzus tartalmát jeleníti meg. Ne távolítd el."
 
 #: assets/js/dist/frontend/quiz.min.js:11
 msgid "Single Course"
@@ -112,7 +117,8 @@ msgid ""
 "This is an editor placeholder for the Single Course page. Content will "
 "render content of single course. Should be not remove it"
 msgstr ""
-"Ez egy szerkesztőhelykitöltő az Egyedi Kurzus oldalához. A tartalom a kiválasztott kurzus tartalmát jeleníti meg. Ne távolítsd el."
+"Ez egy szerkesztőhelykitöltő az Egyedi Kurzus oldalához. A tartalom a "
+"kiválasztott kurzus tartalmát jeleníti meg. Ne távolítsd el."
 
 #: assets/js/dist/frontend/quiz.min.js:41 inc/class-lp-assets.php:94
 #: inc/lp-core-functions.php:2822
@@ -132,7 +138,8 @@ msgstr "A fájl mérete túl nagy. Tölts fel egy fájlt, ami kisebb, mint 2 MB.
 
 #: assets/js/dist/frontend/quiz.min.js:133
 msgid "The image size must be greater than or equal to %1$sx%2$spx"
-msgstr "A kép mérete nagyobbnak vagy egyenlőnek kell lennie, mint %1$sx%2$s képpont"
+msgstr ""
+"A kép mérete nagyobbnak vagy egyenlőnek kell lennie, mint %1$sx%2$s képpont"
 
 #: assets/js/dist/frontend/quiz.min.js:146
 msgid "Are you sure you want to remove your avatar?"
@@ -362,8 +369,8 @@ msgid ""
 "Management System (LMS). It can help you to create courses, lessons, and "
 "quizzes."
 msgstr ""
-"A LearnPress egy teljes megoldás a WordPress Learning Management System (LMS) "
-"létrehozásához. Segíthet önnek kurzusok, leckék és kvízek készítésében."
+"A LearnPress egy teljes megoldás a WordPress Learning Management System (LMS)"
+" létrehozásához. Segíthet önnek kurzusok, leckék és kvízek készítésében."
 
 #. Author of the plugin
 msgid "ThimPress"
@@ -779,7 +786,9 @@ msgstr "Kurzusok max. száma"
 
 #: config/elementor/course/list-courses-by-page.php:120
 msgid "Total courses you want to query, default 0 is no limit"
-msgstr "Az összes kurzus, amelyet le szeretne kérdezni. Az alapértelmezett 0 a korlátlan beállítást jelenti."
+msgstr ""
+"Az összes kurzus, amelyet le szeretne kérdezni. Az alapértelmezett 0 a "
+"korlátlan beállítást jelenti."
 
 #: config/elementor/course/list-courses-by-page.php:125
 msgid "Courses Per Page"
@@ -787,7 +796,9 @@ msgstr "Kurzusok oldalanként"
 
 #: config/elementor/course/list-courses-by-page.php:131
 msgid "Number courses show on 1 page. Default 0 is show all of Courses Limit"
-msgstr "A kurzusok száma egy oldalon. Az alapértelmezett 0 az összes kurzus megjelenítését jelenti a megadott limitből."
+msgstr ""
+"A kurzusok száma egy oldalon. Az alapértelmezett 0 az összes kurzus "
+"megjelenítését jelenti a megadott limitből."
 
 #: config/elementor/course/list-courses-by-page.php:136
 msgid "Order By Default"
@@ -1127,12 +1138,14 @@ msgstr "Oktató Gomb Nézet"
 
 #: config/elementor/instructor/sections/count_courses.php:37
 #: inc/ExternalPlugin/Elementor/Widgets/Instructor/Sections/InstructorCountCoursesElementor.php:20
+#:
 #: inc/ExternalPlugin/Elementor/Widgets/Instructor/Sections/InstructorCountCoursesElementor.php:44
 msgid "Instructor Count Courses"
 msgstr "Oktatói kurzusok száma"
 
 #: config/elementor/instructor/sections/count_students.php:37
 #: inc/ExternalPlugin/Elementor/Widgets/Instructor/Sections/InstructorCountStudentsElementor.php:20
+#:
 #: inc/ExternalPlugin/Elementor/Widgets/Instructor/Sections/InstructorCountStudentsElementor.php:44
 msgid "Instructor Count Students"
 msgstr "Oktató hallgatók száma"
@@ -1143,6 +1156,7 @@ msgstr "HTML tag wrapper hozzáadása az Oktató Leíráshoz"
 
 #: config/elementor/instructor/sections/description.php:66
 #: inc/ExternalPlugin/Elementor/Widgets/Instructor/Sections/InstructorDescriptionElementor.php:18
+#:
 #: inc/ExternalPlugin/Elementor/Widgets/Instructor/Sections/InstructorDescriptionElementor.php:42
 msgid "Instructor Description"
 msgstr "Oktató leírás"
@@ -1164,12 +1178,13 @@ msgid ""
 "The site will be redirected to the URL added after clicking the finish "
 "course button."
 msgstr ""
-"A weboldal át lesz irányítva a hozzáadott URL-címre a kurzus befejező "
-"gombra kattintás után."
+"A weboldal át lesz irányítva a hozzáadott URL-címre a kurzus befejező gombra "
+"kattintás után."
 
 #: config/settings/course.php:9
 msgid "Set blank, the site will be redirected to the single course page"
-msgstr "Hagyd üresen, és a weboldal a kurzus egyetlen oldalára lesz átirányítva"
+msgstr ""
+"Hagyd üresen, és a weboldal a kurzus egyetlen oldalára lesz átirányítva"
 
 #: config/settings/course.php:19 config/settings/profile.php:30
 #: inc/admin/settings/class-lp-settings-emails.php:63
@@ -1197,7 +1212,7 @@ msgstr "Automatikus indítás"
 msgid ""
 "Students will get started on courses immediately after successfully "
 "purchasing them."
-msgstr A hallgatók azonnal elkezdhetik a kurzusokat a sikeres vásárlás után."
+msgstr ""
 
 #: config/settings/course.php:37
 msgid "Confirmation popup"
@@ -1206,8 +1221,7 @@ msgstr "Megerősítő felugró ablak"
 #: config/settings/course.php:38
 msgid ""
 "Show a confirmation popup before finishing the course or completing the item."
-msgstr Mutasson be egy megerősítő felugró ablakot a kurzus befejezése vagy az "
-"elem befejezése előtt."
+msgstr ""
 
 #: config/settings/course.php:44
 msgid "Archive page layout"
@@ -1239,8 +1253,9 @@ msgstr "Ne fusson az Ajax, amikor újratölti a Kurzus Archív oldalt"
 
 #: config/settings/course.php:71
 msgid ""
-"Ajax is only applied when selecting pagination, filtering, searching, and sorting. Not applicable when reloading the Course Archive page."
-msgstr Az Ajax csak akkor alkalmazandó, amikor lapoz, szűr, keres vagy rendez. Nem alkalmazandó, amikor újratölti a Kurzus Archív oldalt."
+"Ajax is only applied when selecting pagination, filtering, searching, and "
+"sorting. Not applicable when reloading the Course Archive page."
+msgstr ""
 
 #: config/settings/course.php:78
 msgid "Pagination Type"
@@ -1275,16 +1290,23 @@ msgid "Section Per Page"
 msgstr "Szakasz oldalanként"
 
 #: config/settings/course.php:123
-msgid "The number of displayed sections per page (Enter -1 to display all sections)."
-msgstr "Az oldalanként megjelenített szakaszok száma (Adjon meg -1-et az összes szakasz megjelenítéséhez)."
+msgid ""
+"The number of displayed sections per page (Enter -1 to display all sections)."
+msgstr ""
+"Az oldalanként megjelenített szakaszok száma (Adjon meg -1-et az összes "
+"szakasz megjelenítéséhez)."
 
 #: config/settings/course.php:126
 msgid "Course Item Per Page"
 msgstr "Kurzus elem oldalanként"
 
 #: config/settings/course.php:131
-msgid "The number of displayed course items per page in a section (Enter -1 to display all course items)."
-msgstr "Az oldalanként megjelenített kurzus elemek száma egy szakaszban (Adjon meg -1-et az összes kurzus elem megjelenítéséhez)."
+msgid ""
+"The number of displayed course items per page in a section (Enter -1 to "
+"display all course items)."
+msgstr ""
+"Az oldalanként megjelenített kurzus elemek száma egy szakaszban (Adjon meg -"
+"1-et az összes kurzus elem megjelenítéséhez)."
 
 #: config/settings/course.php:144
 msgid "Material Settings"
@@ -1304,7 +1326,8 @@ msgstr "Fájlok feltöltése"
 
 #: config/settings/course.php:198
 msgid "Number files the user can upload. Set to 0 to disable"
-msgstr "A felhasználó által feltölthető fájlok száma. Állítsd 0-ra a letiltáshoz."
+msgstr ""
+"A felhasználó által feltölthető fájlok száma. Állítsd 0-ra a letiltáshoz."
 
 #: config/settings/course.php:204
 msgid "File Size Limit"
@@ -1319,8 +1342,12 @@ msgid "File Per Page"
 msgstr "Fájl oldalanként"
 
 #: config/settings/course.php:218
-msgid "The number of displayed files per page (Enter -1 to display all files, set to 0 to disable)."
-msgstr "Az oldalanként megjelenített fájlok száma (Adjon meg -1-et az összes fájl megjelenítéséhez, 0-ra a letiltáshoz)."
+msgid ""
+"The number of displayed files per page (Enter -1 to display all files, set "
+"to 0 to disable)."
+msgstr ""
+"Az oldalanként megjelenített fájlok száma (Adjon meg -1-et az összes fájl "
+"megjelenítéséhez, 0-ra a letiltáshoz)."
 
 #: config/settings/course.php:224
 msgid "Url nofollow"
@@ -1339,8 +1366,12 @@ msgid "Instructor Per Page"
 msgstr "Oktató oldalanként"
 
 #: config/settings/course.php:249
-msgid "The number of displayed instructors per page (Enter -1 to display all sections)."
-msgstr "Az oldalanként megjelenített oktatók száma (Adjon meg -1-et az összes szakasz megjelenítéséhez)."
+msgid ""
+"The number of displayed instructors per page (Enter -1 to display all "
+"sections)."
+msgstr ""
+"Az oldalanként megjelenített oktatók száma (Adjon meg -1-et az összes "
+"szakasz megjelenítéséhez)."
 
 #: config/settings/gateway/offline-payment.php:20
 #: inc/admin/views/setup/setup-stripe.php:3
@@ -1399,7 +1430,8 @@ msgstr "Ügyfél azonosító"
 
 #: config/settings/gateway/paypal.php:50
 msgid "How to get <a href=\"%s\" target=\"_blank\">Client ID</a>"
-msgstr "Hogyan szerezhető be a <a href=\"%s\" target=\"_blank\">Ügyfélazonosító</a>"
+msgstr ""
+"Hogyan szerezhető be a <a href=\"%s\" target=\"_blank\">Ügyfélazonosító</a>"
 
 #: config/settings/gateway/paypal.php:55
 msgid "Client Secret"
@@ -1407,7 +1439,8 @@ msgstr "Ügyfél titok"
 
 #: config/settings/gateway/paypal.php:59
 msgid "How to get <a href=\"%s\" target=\"_blank\">Client Secret</a>"
-msgstr "Hogyan szerezhető be a <a href=\"%s\" target=\"_blank\">Ügyfél titok</a>"
+msgstr ""
+"Hogyan szerezhető be a <a href=\"%s\" target=\"_blank\">Ügyfél titok</a>"
 
 #: config/settings/general.php:13
 msgid "Pages setup"
@@ -1503,8 +1536,16 @@ msgid "Publish profile"
 msgstr "Profil közzététele"
 
 #: config/settings/general.php:133
-msgid "This option will add a sub-item \\\"Privacy\\\" under the Setting tab on the Profile page. If users want to publish or hide their course, or quiz tab when other users visit their profile page, they need to enable/disable that option in the Privacy section."
-msgstr "Ez az opció hozzáad egy \\\"Adatvédelem\\\" alpontot a Profil oldal Beállítások füléhez. Ha a felhasználók szeretnék közzétenni vagy elrejteni kurzusukat vagy kvízüket más felhasználók profiloldalán, akkor ezt az opciót engedélyezniük/kikapcsolniuk kell az Adatvédelmi részben."
+msgid ""
+"This option will add a sub-item \\\"Privacy\\\" under the Setting tab on the "
+"Profile page. If users want to publish or hide their course, or quiz tab "
+"when other users visit their profile page, they need to enable/disable that "
+"option in the Privacy section."
+msgstr ""
+"Ez az opció hozzáad egy \\\"Adatvédelem\\\" alpontot a Profil oldal "
+"Beállítások füléhez. Ha a felhasználók szeretnék közzétenni vagy elrejteni "
+"kurzusukat vagy kvízüket más felhasználók profiloldalán, akkor ezt az opciót "
+"engedélyezniük/kikapcsolniuk kell az Adatvédelmi részben."
 
 #: config/settings/general.php:134
 msgid "Public all user profile pages (only the overview tab)."
@@ -1649,7 +1690,9 @@ msgstr "Bejelentkezési űrlap engedélyezése"
 
 #: config/settings/profile.php:45
 msgid "If the user is not logged in, enable login from profile."
-msgstr "Ha a felhasználó nincs bejelentkezve, engedélyezze a bejelentkezést a profilból."
+msgstr ""
+"Ha a felhasználó nincs bejelentkezve, engedélyezze a bejelentkezést a "
+"profilból."
 
 #: config/settings/profile.php:48
 msgid "Enable register form"
@@ -1657,7 +1700,9 @@ msgstr "Regisztrációs űrlap engedélyezése"
 
 #: config/settings/profile.php:52
 msgid "If the user is not logged in, enable register from profile."
-msgstr "Ha a felhasználó nincs bejelentkezve, engedélyezze a regisztrációt a profilból."
+msgstr ""
+"Ha a felhasználó nincs bejelentkezve, engedélyezze a regisztrációt a "
+"profilból."
 
 #: config/settings/profile.php:55
 msgid "Enable default fields"
@@ -1810,9 +1855,9 @@ msgid ""
 "contact our support team. Are you sure to proceed with the update protocol?"
 msgstr ""
 "Mielőtt végrehajtanád ezt a műveletet, javasoljuk, hogy először készíts "
-"biztonsági másolatot az oldalról. Ha bármilyen problémába ütköznél, ne habozz "
-"kapcsolatba lépni támogatási csapatunkkal. Biztosan folytatod a frissítési "
-"folyamatot?"
+"biztonsági másolatot az oldalról. Ha bármilyen problémába ütköznél, ne "
+"habozz kapcsolatba lépni támogatási csapatunkkal. Biztosan folytatod a "
+"frissítési folyamatot?"
 
 #: inc/admin/class-lp-admin-assets.php:483 inc/class-lp-query-list-table.php:32
 msgid "item"
@@ -1822,8 +1867,8 @@ msgstr "elem"
 msgid "Create a new"
 msgstr "Hozzon létre egy újat"
 
-#: inc/admin/class-lp-admin-assets.php:485 inc/admin/views/setup/content.php:50
-#: inc/custom-post-types/quiz.php:169
+#: inc/admin/class-lp-admin-assets.php:485
+#: inc/admin/views/setup/content.php:50 inc/custom-post-types/quiz.php:169
 msgid "Back"
 msgstr "Vissza"
 
@@ -1836,7 +1881,8 @@ msgstr "Kiválasztott elemek"
 
 #: inc/admin/class-lp-admin-assets.php:487
 msgid "Do you want to remove the \"{{ITEM_NAME}}\" item from the course?"
-msgstr "Biztosan el szeretné távolítani a(z) „{{ITEM_NAME}}” elemet a kurzusból?"
+msgstr ""
+"Biztosan el szeretné távolítani a(z) „{{ITEM_NAME}}” elemet a kurzusból?"
 
 #: inc/admin/class-lp-admin-assets.php:488
 msgid "Do you want to move the \"{{ITEM_NAME}}\" item to the trash?"
@@ -1856,11 +1902,15 @@ msgstr "A kurzus árának nagyobbnak kell lennie, mint a kedvezményes ár"
 
 #: inc/admin/class-lp-admin-assets.php:495
 msgid "The sale start date must be before the sale end date"
-msgstr "A kedvezményes ár érvényességének kezdeti dátumának megelőznie kell a lejárati dátumot"
+msgstr ""
+"A kedvezményes ár érvényességének kezdeti dátumának megelőznie kell a "
+"lejárati dátumot"
 
 #: inc/admin/class-lp-admin-assets.php:496
 msgid "The sale end date must be after the sale start date"
-msgstr "A kedvezményes ár érvényességének lejárati dátumának követnie kell a kezdeti dátumot"
+msgstr ""
+"A kedvezményes ár érvényességének lejárati dátumának követnie kell a kezdeti "
+"dátumot"
 
 #: inc/admin/class-lp-admin-assets.php:497
 msgid "Invalid date"
@@ -2021,9 +2071,9 @@ msgid ""
 "&#9733;&#9733;&#9733;%2$s rating. A huge thanks from the LearnPress team for "
 "your generosity."
 msgstr ""
-"Ha tetszik a <strong>LearnPress</strong>, kérjük, hagyj nekünk egy %1$s&#9733;&#9733;"
-"&#9733;&#9733;&#9733;%2$s értékelést. Hatalmas köszönet a LearnPress csapatától "
-"a nagylelkűségéért."
+"Ha tetszik a <strong>LearnPress</strong>, kérjük, hagyj nekünk egy "
+"%1$s&#9733;&#9733;&#9733;&#9733;&#9733;%2$s értékelést. Hatalmas köszönet a "
+"LearnPress csapatától a nagylelkűségéért."
 
 #: inc/admin/class-lp-admin.php:645
 msgid "Thanks :)"
@@ -2033,7 +2083,8 @@ msgstr "Köszönöm :)"
 msgid ""
 "Permalink is only available if the item is already assigned to a course."
 msgstr ""
-"A permalink csak akkor elérhető, ha az elem már hozzá van rendelve egy kurzushoz."
+"A permalink csak akkor elérhető, ha az elem már hozzá van rendelve egy "
+"kurzushoz."
 
 #: inc/admin/class-lp-install-sample-data.php:68
 msgid "Are you sure you want to install the sample course data?"
@@ -2257,7 +2308,8 @@ msgstr "Oldalak"
 msgid "Payment"
 msgstr "Fizetés"
 
-#: inc/admin/class-lp-setup-wizard.php:237 inc/admin/views/setup/content.php:67
+#: inc/admin/class-lp-setup-wizard.php:237
+#: inc/admin/views/setup/content.php:67
 #: inc/admin/views/setup/steps/finish.php:12
 msgid "Finish"
 msgstr "Befejezés"
@@ -2514,8 +2566,8 @@ msgid ""
 "Enter a custom base to use. A base must be set or WordPress will use default "
 "values instead."
 msgstr ""
-"Adjon meg egyéni alapot a használathoz. Egy alapot be kell állítani, különben "
-"a WordPress alapértelmezett értékeket fog használni."
+"Adjon meg egyéni alapot a használathoz. Egy alapot be kell állítani, "
+"különben a WordPress alapértelmezett értékeket fog használni."
 
 #: inc/admin/meta-box/fields/custom-fields.php:42
 msgid "Add new"
@@ -2530,8 +2582,8 @@ msgid ""
 "This template has been overridden by your theme and can be found in: <code>"
 "%s</code>. <br />Please open the file in an editor program to edit"
 msgstr ""
-"Ezt a sablont a saját témád felülírta, és megtalálható itt: <code>%s</code>. <br />"
-"Kérjük, nyisd meg a fájlt egy szerkesztőprogramban a szerkesztéshez."
+"Ezt a sablont a saját témád felülírta, és megtalálható itt: <code>%s</code>. "
+"<br />Kérjük, nyisd meg a fájlt egy szerkesztőprogramban a szerkesztéshez."
 
 #: inc/admin/meta-box/fields/email-content.php:135
 msgid "Click on any variables above to insert them into the email."
@@ -2539,7 +2591,8 @@ msgstr "Kattints bármelyik változóra a fenti beillesztéséhez az e-mailbe."
 
 #: inc/admin/meta-box/fields/image-advanced.php:25
 #: inc/admin/meta-box/fields/image-advanced.php:38
-#: inc/admin/meta-box/fields/image.php:28 inc/admin/views/course/section.php:48
+#: inc/admin/meta-box/fields/image.php:28
+#: inc/admin/views/course/section.php:48
 #: inc/admin/views/meta-boxes/fields/materials.php:174
 #: inc/admin/views/meta-boxes/fields/materials.php:190
 #: inc/admin/views/question/fib-answer-editor.php:24
@@ -2745,12 +2798,12 @@ msgid "Review Course"
 msgstr "Tantárgy felülvizsgálata"
 
 #: inc/admin/settings/email-groups/class-lp-settings-enrolled-course-emails.php:28
-#: inc/rest-api/v1/frontend/class-lp-rest-profile-controller.php:242
+#:  inc/rest-api/v1/frontend/class-lp-rest-profile-controller.php:242
 msgid "Enrolled Course"
 msgstr "Beiratkozott kurzus"
 
 #: inc/admin/settings/email-groups/class-lp-settings-finished-course-emails.php:28
-#: inc/rest-api/v1/frontend/class-lp-rest-profile-controller.php:252
+#:  inc/rest-api/v1/frontend/class-lp-rest-profile-controller.php:252
 msgid "Finished Course"
 msgstr "Befejezett kurzus"
 
@@ -2763,7 +2816,7 @@ msgid "Processing Order"
 msgstr "Feldolgozás alatt álló rendelés"
 
 #: inc/admin/settings/email-groups/class-lp-settings-reset-password-emails.php:21
-#: inc/emails/types/class-lp-email-reset-password.php:18
+#:  inc/emails/types/class-lp-email-reset-password.php:18
 #: inc/emails/types/class-lp-email-reset-password.php:22
 msgid "Reset Password"
 msgstr "Jelszó visszaállítása"
@@ -2866,9 +2919,10 @@ msgid ""
 "remaining. Please extend the update & support license to keep updating the "
 "latest versions & receive customer support from ThimPress before it expires."
 msgstr ""
-"Önnek van egy licencje erre az elemre, %s nap frissítési és támogatási idővel. "
-"Kérjük, hosszabbítsd meg a frissítési és támogatási licencet, hogy a legfrissebb "
-"verziókat frissíthesd és ügyféltámogatást kapj a ThimPress-től, mielőtt lejárna."
+"Önnek van egy licencje erre az elemre, %s nap frissítési és támogatási "
+"idővel. Kérjük, hosszabbítsd meg a frissítési és támogatási licencet, hogy a "
+"legfrissebb verziókat frissíthesd és ügyféltámogatást kapj a ThimPress-től, "
+"mielőtt lejárna."
 
 #: inc/admin/views/addons.php:165
 msgid "WP.org"
@@ -2934,8 +2988,9 @@ msgid ""
 "fully operational (currently <strong>%s</strong>)"
 msgstr ""
 "A LearnPress bővítmény alapkönyvtára <strong>learnpress/learnpres."
-"php</strong> (kis- és nagybetű-érzékeny) kell legyen annak érdekében, hogy minden "
-"funkció megfelelően működjön és teljesen működőképes legyen (jelenlegi <strong>%s</strong>)"
+"php</strong> (kis- és nagybetű-érzékeny) kell legyen annak érdekében, hogy "
+"minden funkció megfelelően működjön és teljesen működőképes legyen "
+"(jelenlegi <strong>%s</strong>)"
 
 #: inc/admin/views/admin-notices/setup-wizard.php:18
 msgid "LearnPress LMS is ready to use."
@@ -2969,7 +3024,9 @@ msgstr "Részletek"
 
 #: inc/admin/views/course/editor.php:41
 msgid "Something went wrong! Please reload to continue editing the curriculum."
-msgstr "Valami hiba történt! Kérjük, frissítse az oldalt a tanterv további szerkesztéséhez."
+msgstr ""
+"Valami hiba történt! Kérjük, frissítse az oldalt a tanterv további "
+"szerkesztéséhez."
 
 #: inc/admin/views/course/modal-choose-items.php:71
 msgid "Type here to search for an item"
@@ -3069,8 +3126,8 @@ msgid ""
 "There is a new update on LearnPress. You may need to update your theme "
 "<strong>(%s)</strong> to avoid outdated template files."
 msgstr ""
-"Új frissítés érkezett a LearnPress-hez. Előfordulhat, hogy frissítened kell a "
-"sablonodat <strong>(%s)</strong>, hogy elkerüld a régi sablonfájlokat."
+"Új frissítés érkezett a LearnPress-hez. Előfordulhat, hogy frissítened kell "
+"a sablonodat <strong>(%s)</strong>, hogy elkerüld a régi sablonfájlokat."
 
 #: inc/admin/views/html-admin-notice-templates.php:40
 msgid ""
@@ -3151,8 +3208,8 @@ msgid ""
 "(Do not apply to free courses or Create Order manual)."
 msgstr ""
 "Engedélyezd a felhasználóknak, hogy újra megvásárolják ezt a kurzust, miután "
-"befejezték vagy lezárták (Ne alkalmazható ingyenes kurzusokra vagy "
-"manuális rendelés létrehozására)."
+"befejezték vagy lezárták (Ne alkalmazható ingyenes kurzusokra vagy manuális "
+"rendelés létrehozására)."
 
 #: inc/admin/views/meta-boxes/course/settings.php:109
 msgid "Repurchase action"
@@ -3213,8 +3270,8 @@ msgid ""
 "Allow showing the finish button when the student has completed all items but "
 "has not passed the course assessment yet."
 msgstr ""
-"Engedélyezze a befejezés gomb megjelenítését, amikor a diák befejezte az összes "
-"elemet, de még nem ment át a kurzus értékelésén."
+"Engedélyezze a befejezés gomb megjelenítését, amikor a diák befejezte az "
+"összes elemet, de még nem ment át a kurzus értékelésén."
 
 #: inc/admin/views/meta-boxes/course/settings.php:174
 msgid "Featured list"
@@ -3368,8 +3425,6 @@ msgid " files ( maximum file size is "
 msgstr " fájl (a maximális fájlméret "
 
 #: inc/admin/views
-
-/meta-boxes/fields/materials.php:131
 msgid "Add Course Materials"
 msgstr "Kurzus tananyagok hozzáadása"
 
@@ -3439,7 +3494,9 @@ msgstr "Előnézet"
 
 #: inc/admin/views/meta-boxes/lesson/settings.php:30
 msgid "Students can view this lesson content without taking the course."
-msgstr "A diákok megtekinthetik ezt a lecke tartalmát anélkül, hogy részt vennének a kurzuson."
+msgstr ""
+"A diákok megtekinthetik ezt a lecke tartalmát anélkül, hogy részt vennének a "
+"kurzuson."
 
 #: inc/admin/views/meta-boxes/lesson/settings.php:63
 #: inc/lp-template-functions.php:99
@@ -3499,7 +3556,7 @@ msgid "Sub Total"
 msgstr "Részösszeg"
 
 #: inc/admin/views/meta-boxes/order/content-tab-preview-exports-invoice.php:102
-#: inc/admin/views/meta-boxes/order/details.php:164
+#:  inc/admin/views/meta-boxes/order/details.php:164
 #: inc/custom-post-types/order.php:465
 #: templates/checkout/order-received.php:117
 #: templates/checkout/review-order.php:106
@@ -3669,17 +3726,18 @@ msgstr "Állítsd 0-ra a korlát nélkül, nagyobbra 0-nál a korlátozás érde
 
 #: inc/admin/views/meta-boxes/quiz/settings.php:36
 msgid "The conditions that must be achieved in order to pass the quiz."
-msgstr "Azok a feltételek, amelyeket teljesíteni kell a kvíz sikeres letételéhez."
+msgstr ""
+"Azok a feltételek, amelyeket teljesíteni kell a kvíz sikeres letételéhez."
 
 #: inc/admin/views/meta-boxes/quiz/settings.php:49
 msgid "Instant Check"
-msgstr "Az
-
-onnali ellenőrzés"
+msgstr "Azonnali ellenőrzés"
 
 #: inc/admin/views/meta-boxes/quiz/settings.php:50
 msgid "Allow students to immediately check their answers while doing the quiz."
-msgstr "Lehetővé teszi a diákoknak, hogy azonnal ellenőrizzék válaszaikat a kvíz közben."
+msgstr ""
+"Lehetővé teszi a diákoknak, hogy azonnal ellenőrizzék válaszaikat a kvíz "
+"közben."
 
 #: inc/admin/views/meta-boxes/quiz/settings.php:54
 msgid "Negative Marking"
@@ -3690,7 +3748,8 @@ msgid ""
 "For each question that students answer wrongly, the total point is deducted "
 "exactly from the question's point."
 msgstr ""
-"Minden olyan kérdésre, amelyre a diákok helytelenül válaszolnak, a teljes pontszám pontosan levonódik a kérdés pontszámából."
+"Minden olyan kérdésre, amelyre a diákok helytelenül válaszolnak, a teljes "
+"pontszám pontosan levonódik a kérdés pontszámából."
 
 #: inc/admin/views/meta-boxes/quiz/settings.php:59
 msgid "Minus for skip"
@@ -3701,14 +3760,16 @@ msgid ""
 "For each question that students answer skip, the total point is deducted "
 "exactly from the question's point."
 msgstr ""
-"Minden olyan kérdésre, amelyre a diákok kihagyott választ adnak, a teljes pontszám pontosan levonódik a kérdés pontszámából."
+"Minden olyan kérdésre, amelyre a diákok kihagyott választ adnak, a teljes "
+"pontszám pontosan levonódik a kérdés pontszámából."
 
 #: inc/admin/views/meta-boxes/quiz/settings.php:65
 msgid ""
 "How many times can the user re-take this quiz? Set 0 to disable. Set -1 to "
 "infinite."
 msgstr ""
-"Hányszor probálhatja újra a felhasználó ezt a kvízt? Állítsd 0-ra a letiltáshoz. Állítsd -1-re a végtelenhez."
+"Hányszor probálhatja újra a felhasználó ezt a kvízt? Állítsd 0-ra a "
+"letiltáshoz. Állítsd -1-re a végtelenhez."
 
 #: inc/admin/views/meta-boxes/quiz/settings.php:78
 msgid "The number of displayed questions on each page."
@@ -3716,7 +3777,9 @@ msgstr "Az oldalanként megjelenített kérdések száma."
 
 #: inc/admin/views/meta-boxes/quiz/settings.php:92
 msgid "Allow students to review this quiz after they finish the quiz."
-msgstr "Lehetővé teszi a diákoknak, hogy áttekintsék ezt a kvízt a kvíz befejezése után."
+msgstr ""
+"Lehetővé teszi a diákoknak, hogy áttekintsék ezt a kvízt a kvíz befejezése "
+"után."
 
 #: inc/admin/views/meta-boxes/quiz/settings.php:96
 msgid "Show the correct answer"
@@ -3727,7 +3790,8 @@ msgid ""
 "Allow students to view the correct answer to the question in reviewing this "
 "quiz."
 msgstr ""
-"Engedélyezze a diákoknak, hogy megtekinthessék a kérdés helyes válaszát a kvíz áttekintése során."
+"Engedélyezze a diákoknak, hogy megtekinthessék a kérdés helyes válaszát a "
+"kvíz áttekintése során."
 
 #: inc/admin/views/question/answer.php:17
 #: inc/admin/views/quiz/question-answer.php:18
@@ -3748,8 +3812,9 @@ msgid ""
 "Select a word in the passage above and click <strong>'Insert a new "
 "blank'</strong> to make that word a blank for filling."
 msgstr ""
-"Válasszon ki egy szót a fenti szövegrészletből, majd kattintson a <strong>'Új üres "
-"beszúrása'</strong> lehetőségre, hogy ezt a szót kitöltendő üressé tegye."
+"Válasszon ki egy szót a fenti szövegrészletből, majd kattintson a <strong>"
+"'Új üres beszúrása'</strong> lehetőségre, hogy ezt a szót kitöltendő üressé "
+"tegye."
 
 #: inc/admin/views/question/fib-answer-editor.php:8
 msgid "Insert a new blank"
@@ -3808,8 +3873,8 @@ msgid ""
 "Match any value in a set of words. Use <code>fill, blank, or question</code> "
 "to match any value in the set."
 msgstr ""
-"Bármely érték megfeleltetése egy szóhalmazban. Használd a <code>fill, blank, or question</code> kifejezést "
-"bármely érték megegyezéséhez a halmazban."
+"Bármely érték megfeleltetése egy szóhalmazban. Használd a <code>fill, blank, "
+"or question</code> kifejezést bármely érték megegyezéséhez a halmazban."
 
 #: inc/admin/views/quiz/editor.php:49 templates/profile/tabs/orders/list.php:32
 msgid "Actions"
@@ -3825,7 +3890,9 @@ msgstr "Hozzáadás típussal..."
 
 #: inc/admin/views/quiz/editor.php:93
 msgid "Something went wrong! Please reload to continue editing quiz questions."
-msgstr "Valami hiba történt! Kérem, frissítse az oldalt a kvízkérdések további szerkesztéséhez."
+msgstr ""
+"Valami hiba történt! Kérem, frissítse az oldalt a kvízkérdések további "
+"szerkesztéséhez."
 
 #: inc/admin/views/quiz/modal-choose-items.php:64
 msgid "Type here to search for the question"
@@ -3899,21 +3966,21 @@ msgstr "E-mail rendszer"
 
 #: inc/admin/views/setup/steps/emails.php:14
 msgid "Emails are sent to users or teachers for each particular action."
-msgstr "Az e-maileket a felhasználóknak vagy tanároknak küldik ki minden egyes különleges művelet után."
+msgstr ""
+"Az e-maileket a felhasználóknak vagy tanároknak küldik ki minden egyes "
+"különleges művelet után."
 
 #: inc/admin/views/setup/steps/emails.php:15
 msgid "You can enable/disable each email in your LearnPress settings later."
-msgstr "A LearnPress beállításaiban később be- vagy kikapcsolhatod az egyes e-maileket."
+msgstr ""
+"A LearnPress beállításaiban később be- vagy kikapcsolhatod az egyes e-"
+"maileket."
 
 #: inc/admin/views/setup/steps/emails.php:16
 msgid "But right now, you can enable all emails to see how emails work."
-msgstr "De most engedélyezheti az összes e-mailt annak érdekében, hogy lássa, hogyan működnek az e-mailek."
-
-#: inc/admin/views/setup/steps/emails.php:17
-msgid "You can skip to the next step if
-
- you don’t want to."
-msgstr "Kihagyhatod a következő lépést, ha nem szeretnéd."
+msgstr ""
+"De most engedélyezheti az összes e-mailt annak érdekében, hogy lássa, hogyan "
+"működnek az e-mailek."
 
 #: inc/admin/views/setup/steps/emails.php:22
 msgid "Enable emails"
@@ -3944,8 +4011,8 @@ msgid ""
 "The pages will display the content of LP's necessary pages, such as Courses, "
 "Checkout, and Profile"
 msgstr ""
-"A lapok megjelenítik az LP szükséges lapjainak tartalmát, mint például a kurzusok, "
-"Kijelentkezés és Profil"
+"A lapok megjelenítik az LP szükséges lapjainak tartalmát, mint például a "
+"kurzusok, Kijelentkezés és Profil"
 
 #: inc/admin/views/setup/steps/pages.php:17
 msgid ""
@@ -3997,14 +4064,16 @@ msgstr "Köszöntjük a LearnPresst"
 
 #: inc/admin/views/setup/steps/welcome.php:14
 msgid "Thanks for choosing LearnPress to sell your online courses!"
-msgstr "Köszönjük, hogy a LearnPresst választotta az online kurzusok értékesítéséhez!"
+msgstr ""
+"Köszönjük, hogy a LearnPresst választotta az online kurzusok értékesítéséhez!"
 
 #: inc/admin/views/setup/steps/welcome.php:16
 msgid ""
 "The following wizard will help you configure your LMS site and get you "
 "started quickly."
 msgstr ""
-"A következő varázsló segít a LMS-webhely konfigurálásában és gyors indításában."
+"A következő varázsló segít a LMS-webhely konfigurálásában és gyors "
+"indításában."
 
 #: inc/admin/views/statistics-bk/courses.php:18
 #: inc/admin/views/statistics-bk/general.php:33
@@ -4215,9 +4284,7 @@ msgstr "Folyamatban"
 #: inc/user-item/class-lp-user-item.php:691 inc/user/class-lp-profile.php:921
 #: inc/user/class-lp-profile.php:955
 msgid "Finished"
-msgstr "Befejezett
-
-"
+msgstr "Befejezve"
 
 #: inc/admin/views/statistics/users.php:47
 #: inc/user-item/class-lp-user-item-quiz.php:155
@@ -4256,8 +4323,8 @@ msgstr "Üdvözlünk a LearnPress %s rendszerben"
 msgid ""
 "This is a <strong>BIG UPDATE</strong> and it allows you to do so much more!"
 msgstr ""
-"Ez egy <strong>NAGY FRISÍTÉS</strong>, és lehetővé teszi, hogy sokkal "
-"több mindent érj el!"
+"Ez egy <strong>NAGY FRISÍTÉS</strong>, és lehetővé teszi, hogy sokkal több "
+"mindent érj el!"
 
 #: inc/admin/views/updates/html-upgrade-message-3.0.0.php:20
 msgid "Check what's new"
@@ -4324,14 +4391,17 @@ msgstr "A(z) %s rendelés sikeresen visszaállítva."
 
 #: inc/class-lp-ajax.php:118
 msgid "Your email already exists. Do you want to continue with this email?"
-msgstr "A megadott e-mail cím már létezik. Szeretnéd folytatni ezzel az e-mail címmel?"
+msgstr ""
+"A megadott e-mail cím már létezik. Szeretnéd folytatni ezzel az e-mail "
+"címmel?"
 
 #: inc/class-lp-ajax.php:125
 msgid ""
 "Create a new account with this email. The account information will be sent "
 "with this email."
 msgstr ""
-"Hozz létre egy új fiókot ezzel az e-mail címen. A fiókadatokat erre az e-mail címre küldjük."
+"Hozz létre egy új fiókot ezzel az e-mail címen. A fiókadatokat erre az e-"
+"mail címre küldjük."
 
 #: inc/class-lp-ajax.php:155
 msgid "Access denied!"
@@ -4379,9 +4449,7 @@ msgstr "Cserélje ki"
 
 #: inc/class-lp-breadcrumb.php:124
 msgid "Error 404"
-msgstr
-
- "Hiba 404"
+msgstr "404-es hiba: Az oldal nem található"
 
 #: inc/class-lp-breadcrumb.php:229
 msgid "Courses tagged &ldquo;%s&rdquo;"
@@ -4655,10 +4723,7 @@ msgstr "Kurzus bélyegkép"
 msgid "There are no options for this widget."
 msgstr "Nincsenek beállítások ennek a widgetnek."
 
-#: inc/course/abstract-course.php:782 inc/course/abstract-course.php:802
-#: inc
-
-/lesson/class-lp-lesson.php:104 inc/quiz/class-lp-quiz.php:648
+#: inc/course/abstract-course.php:782 inc/course/abstract-course.php:802 inc
 msgid "The function %s doesn't exist"
 msgstr "A(z) %s funkció nem létezik"
 
@@ -4793,16 +4858,16 @@ msgid ""
 "This item has already been assigned to the course. It will be removed from "
 "the course if it is not published."
 msgstr ""
-"Ez az elem már hozzá van rendelve a kurzushoz. El lesz távolítva a kurzusból, "
-"ha nincs közzétéve."
+"Ez az elem már hozzá van rendelve a kurzushoz. El lesz távolítva a kurzusból,"
+" ha nincs közzétéve."
 
 #: inc/custom-post-types/abstract.php:455
 msgid ""
 "This question has already been assigned to the quiz. It will be removed from "
 "the quiz if it is not published."
 msgstr ""
-"Ez a kérdés már hozzá van rendelve a kvízhez. El lesz távolítva a kvízből, ha "
-"nincs közzétéve."
+"Ez a kérdés már hozzá van rendelve a kvízhez. El lesz távolítva a kvízből, "
+"ha nincs közzétéve."
 
 #: inc/custom-post-types/abstract.php:725
 msgid "Unknown"
@@ -5224,7 +5289,8 @@ msgstr "Kvízek keresése"
 msgid ""
 "You haven't had any quizzes yet. Click <a href=\"%s\">Add new</a> to start"
 msgstr ""
-"Még nem készítettél kvízt. Kattints a(z) <a href=\"%s\">Új hozzáadása</a> gombra a kezdéshez"
+"Még nem készítettél kvízt. Kattints a(z) <a href=\"%s\">Új hozzáadása</a> "
+"gombra a kezdéshez"
 
 #: inc/custom-post-types/quiz.php:96
 msgid "There was no quiz found in the trash"
@@ -5236,7 +5302,8 @@ msgstr "Opció"
 
 #: inc/custom-post-types/quiz.php:172
 msgid "Do you want to move the \"{{QUESTION_NAME}}\" question to the trash?"
-msgstr "Biztosan törölni szeretnéd a(z) „{{QUESTION_NAME}}” kérdést a szemétládába?"
+msgstr ""
+"Biztosan törölni szeretnéd a(z) „{{QUESTION_NAME}}” kérdést a szemétládába?"
 
 #: inc/custom-post-types/quiz.php:285
 #: inc/templates/class-lp-template-course.php:101
@@ -5341,7 +5408,8 @@ msgstr "A felhasználó rendelése befejeződött"
 
 #: inc/emails/admin/class-lp-email-enrolled-course-admin.php:29
 msgid "Send an email to admin when the user has enrolled in the course."
-msgstr "Értesítse az adminisztrátort, amikor a felhasználó beiratkozott a kurzusra."
+msgstr ""
+"Értesítse az adminisztrátort, amikor a felhasználó beiratkozott a kurzusra."
 
 #: inc/emails/admin/class-lp-email-enrolled-course-admin.php:30
 #: inc/emails/instructor/class-lp-email-enrolled-course-instructor.php:28
@@ -5355,7 +5423,8 @@ msgstr "A felhasználó beiratkozott a kurzusra"
 
 #: inc/emails/admin/class-lp-email-finished-course-admin.php:27
 msgid "Send an email to admin when the user has finished the course."
-msgstr "Értesítse az adminisztrátort, amikor a felhasználó befejezte a kurzust."
+msgstr ""
+"Értesítse az adminisztrátort, amikor a felhasználó befejezte a kurzust."
 
 #: inc/emails/admin/class-lp-email-finished-course-admin.php:28
 #: inc/emails/instructor/class-lp-email-finished-course-instructor.php:28
@@ -5376,10 +5445,7 @@ msgstr "Értesítse az adminisztrátort, amikor új rendelés érkezik."
 msgid "New order placed on {{order_date}}"
 msgstr "Új rendelés érkezett {{order_date}}-én"
 
-#: inc/emails
-
-/admin/class-lp-email-new-order-admin.php:29
-#: inc/emails/instructor/class-lp-email-new-order-instructor.php:25
+#: inc/emails inc/emails/instructor/class-lp-email-new-order-instructor.php:25
 msgid "New user order"
 msgstr "Új felhasználói rendelés"
 
@@ -5416,7 +5482,9 @@ msgstr "A rendelésed törölve lett"
 #: inc/emails/guest/class-lp-email-completed-order-guest.php:30
 #: inc/emails/guest/class-lp-email-new-order-guest.php:26
 msgid "Send an email to the user who has bought the course as a guest."
-msgstr "Küldjön e-mailt azoknak a felhasználóknak, akik a vendégként vásárolták meg a kurzust."
+msgstr ""
+"Küldjön e-mailt azoknak a felhasználóknak, akik a vendégként vásárolták meg "
+"a kurzust."
 
 #: inc/emails/guest/class-lp-email-completed-order-guest.php:32
 #: inc/emails/student/class-lp-email-completed-order-user.php:35
@@ -5447,7 +5515,8 @@ msgid ""
 "When the order is processed, send an email to the user who purchased the "
 "course as a guest."
 msgstr ""
-"Amikor a rendelés feldolgozásra kerül, küldjön e-mailt a felhasználónak, aki vendégként vásárolta meg a kurzust."
+"Amikor a rendelés feldolgozásra kerül, küldjön e-mailt a felhasználónak, aki "
+"vendégként vásárolta meg a kurzust."
 
 #: inc/emails/instructor/class-lp-email-cancelled-order-instructor.php:25
 #: inc/emails/instructor/class-lp-email-enrolled-course-instructor.php:25
@@ -5461,14 +5530,12 @@ msgstr "Oktató"
 #: inc/emails/instructor/class-lp-email-cancelled-order-instructor.php:26
 msgid ""
 "Send an email to the course instructor when the order has been cancelled."
-msgstr ""
-"Értesítse a kurzus oktatóját, amikor a rendelést törölték."
+msgstr "Értesítse a kurzus oktatóját, amikor a rendelést törölték."
 
 #: inc/emails/instructor/class-lp-email-enrolled-course-instructor.php:26
 msgid ""
 "Send this email to the instructor when they have enrolled in the course."
-msgstr ""
-"Küldje el ezt az e-mailt az oktatónak, amikor beiratkozott a kurzusra."
+msgstr "Küldje el ezt az e-mailt az oktatónak, amikor beiratkozott a kurzusra."
 
 #: inc/emails/instructor/class-lp-email-finished-course-instructor.php:26
 msgid "Send this email to the instructor when they have finished the course."
@@ -5479,8 +5546,6 @@ msgid "Accepted"
 msgstr "Elfogadva"
 
 #: inc/emails/instructor/class-lp-email-instructor-accepted.php:
-
-29
 #: inc/emails/instructor/class-lp-email-instructor-accepted.php:32
 msgid "Your email requesting to become an instructor has been accepted."
 msgstr "Az oktatóvá válást kérelmező e-mailje elfogadásra került."
@@ -5507,7 +5572,8 @@ msgstr "Az oktatóvá válás kérelme elutasításra került"
 
 #: inc/emails/instructor/class-lp-email-new-order-instructor.php:22
 msgid "Notify instructors when a user enrolls in one of their courses."
-msgstr "Értesítse az oktatókat, amikor egy felhasználó beiratkozik egyik kurzusukra."
+msgstr ""
+"Értesítse az oktatókat, amikor egy felhasználó beiratkozik egyik kurzusukra."
 
 #: inc/emails/student/class-lp-email-cancelled-order-user.php:25
 #: inc/emails/student/class-lp-email-completed-order-user.php:29
@@ -5527,11 +5593,13 @@ msgid ""
 "Send an email to the user who has bought the course when the order is "
 "completed."
 msgstr ""
-"Küldjön e-mailt azoknak a felhasználóknak, akik a rendelés befejeződött, és megvásárolták a kurzust."
+"Küldjön e-mailt azoknak a felhasználóknak, akik a rendelés befejeződött, és "
+"megvásárolták a kurzust."
 
 #: inc/emails/student/class-lp-email-enrolled-course-user.php:28
 msgid "Send this email to the user when they have enrolled in the course."
-msgstr "Küldje el ezt az e-mailt a felhasználónak, amikor beiratkozott a kurzusra."
+msgstr ""
+"Küldje el ezt az e-mailt a felhasználónak, amikor beiratkozott a kurzusra."
 
 #: inc/emails/student/class-lp-email-enrolled-course-user.php:30
 msgid "[{{site_title}}] You have enrolled in the course"
@@ -5555,11 +5623,14 @@ msgstr "Befejezted a kurzust"
 
 #: inc/emails/student/class-lp-email-new-order-user.php:26
 msgid "Notify users when they successfully enroll in a course."
-msgstr "Értesítse a felhasználókat, amikor sikeresen beiratkoznak egy kurzusra."
+msgstr ""
+"Értesítse a felhasználókat, amikor sikeresen beiratkoznak egy kurzusra."
 
 #: inc/emails/student/class-lp-email-processing-order-user.php:23
 msgid "Notify users when their course orders are being processed."
-msgstr "Értesítse a felhasználókat, amikor a kurzusrendeléseik feldolgozásra kerülnek."
+msgstr ""
+"Értesítse a felhasználókat, amikor a kurzusrendeléseik feldolgozásra "
+"kerülnek."
 
 #: inc/emails/types/class-lp-email-reset-password.php:19
 msgid "Password Reset Email."
@@ -5618,7 +5689,7 @@ msgid "List Courses by Page"
 msgstr "Kurzusok listázása oldalonként"
 
 #: inc/ExternalPlugin/Elementor/Widgets/Course/Sections/CoursePriceElementor.php:20
-#: inc/jwt/rest-api/version1/class-lp-rest-courses-v1-controller.php:1120
+#:  inc/jwt/rest-api/version1/class-lp-rest-courses-v1-controller.php:1120
 msgid "Course Price"
 msgstr "Kurzus ára"
 
@@ -5631,6 +5702,7 @@ msgid "List Instructors"
 msgstr "Oktatók listázása"
 
 #: inc/ExternalPlugin/Elementor/Widgets/Instructor/Sections/InstructorAvatarElementor.php:20
+#:
 #: inc/ExternalPlugin/Elementor/Widgets/Instructor/Sections/InstructorAvatarElementor.php:44
 msgid "Instructor Avatar"
 msgstr "Oktató avatar"
@@ -5640,6 +5712,7 @@ msgid "Instructor button view"
 msgstr "Oktató gomb nézet"
 
 #: inc/ExternalPlugin/Elementor/Widgets/Instructor/Sections/InstructorTitleElementor.php:20
+#:
 #: inc/ExternalPlugin/Elementor/Widgets/Instructor/Sections/InstructorTitleElementor.php:44
 msgid "Instructor Name"
 msgstr "Oktató neve"
@@ -5706,12 +5779,6 @@ msgstr "Érvénytelen Paypal hozzáférési token"
 msgid "Invalid Paypal checkout url"
 msgstr "Érvénytelen Paypal fizetési url"
 
-#: inc/handle-steps/class-lp-handle-steps.php:26
-msgid "Invalid steps
-
-"
-msgstr "Érvénytelen lépések"
-
 #: inc/handle-steps/class-lp-handle-steps.php:31
 msgid "Invalid step"
 msgstr "Érvénytelen lépés"
@@ -5755,7 +5822,9 @@ msgstr "A felhasználó e-mail címe."
 #: inc/jwt/includes/class-jwt-public.php:156
 #: inc/jwt/includes/class-jwt-public.php:301
 msgid "LearnPress JWT is not configurated properly, please contact the admin"
-msgstr "A LearnPress JWT-t nem megfelelően konfigurálták, kérjük, lépjen kapcsolatba az adminisztrátorral"
+msgstr ""
+"A LearnPress JWT-t nem megfelelően konfigurálták, kérjük, lépjen kapcsolatba "
+"az adminisztrátorral"
 
 #: inc/jwt/includes/class-jwt-public.php:272
 msgid "Authorization header not found."
@@ -5897,8 +5966,6 @@ msgid "Course slug."
 msgstr "A kurzus parafa."
 
 #: inc/jwt
-
-/rest-api/version1/class-lp-rest-courses-v1-controller.php:1015
 #: inc/jwt/rest-api/version1/class-lp-rest-lessons-v1-controller.php:446
 #: inc/jwt/rest-api/version1/class-lp-rest-questions-v1-controller.php:213
 #: inc/jwt/rest-api/version1/class-lp-rest-quiz-v1-controller.php:582
@@ -6168,8 +6235,6 @@ msgstr "Gratulálok! Sikeresen befejezted a leckét"
 
 #: inc/jwt/rest-api/version1/class-lp-rest-lessons-v1-controller.php:505
 #: inc/jwt/rest-api/version1/class-lp
-
--rest-questions-v1-controller.php:261
 #: inc/jwt/rest-api/version1/class-lp-rest-quiz-v1-controller.php:641
 msgid "Assigned."
 msgstr "Hozzárendelve."
@@ -6216,7 +6281,8 @@ msgstr "Érvénytelen azonosító."
 #: inc/jwt/rest-api/version1/class-lp-rest-posts-controller.php:14
 #: inc/jwt/rest-api/version1/class-lp-rest-posts-controller.php:475
 msgid "The method '%s' not implemented. It must be overridden in the subclass."
-msgstr "A(z) '%s' módszer nincs implementálva. Felül kell írni az allosztályban."
+msgstr ""
+"A(z) '%s' módszer nincs implementálva. Felül kell írni az allosztályban."
 
 #: inc/jwt/rest-api/version1/class-lp-rest-posts-controller.php:19
 msgid "Sorry, you cannot get lists"
@@ -6256,13 +6322,15 @@ msgstr "Korlátozza az eredményeket az adott karakterláncra illeszkedőkre."
 msgid ""
 "Limit response to resources published after a given ISO8601 compliant date."
 msgstr ""
-"Korlátozza a választ az adott, ISO8601 szabványnak megfelelő dátum után közzétett erőforrásokra."
+"Korlátozza a választ az adott, ISO8601 szabványnak megfelelő dátum után "
+"közzétett erőforrásokra."
 
 #: inc/jwt/rest-api/version1/class-lp-rest-posts-controller.php:535
 msgid ""
 "Limit response to resources published before a given ISO8601 compliant date."
 msgstr ""
-"Korlátozza a választ az adott, ISO8601 szabványnak megfelelő dátum előtt közzétett erőforrásokra."
+"Korlátozza a választ az adott, ISO8601 szabványnak megfelelő dátum előtt "
+"közzétett erőforrásokra."
 
 #: inc/jwt/rest-api/version1/class-lp-rest-posts-controller.php:541
 #: inc/jwt/rest-api/version1/class-lp-rest-section-items-v1-controller.php:345
@@ -6293,11 +6361,14 @@ msgstr "Rendezze a gyűjteményeket az objektum tulajdonságai szerint."
 #: inc/jwt/rest-api/version1/class-lp-rest-posts-controller.php:586
 #: inc/jwt/rest-api/version1/class-lp-rest-posts-controller.php:602
 msgid "Limit the result set to posts assigned to specific authors."
-msgstr "Korlátozza az eredményhalmazt a megadott szerzőkhöz rendelt bejegyzésekre."
+msgstr ""
+"Korlátozza az eredményhalmazt a megadott szerzőkhöz rendelt bejegyzésekre."
 
 #: inc/jwt/rest-api/version1/class-lp-rest-posts-controller.php:594
 msgid "Ensure the result set excludes posts assigned to specific authors."
-msgstr "Biztosítja, hogy az eredményhalmaz kizárja a megadott szerzőkhöz rendelt bejegyzéseket."
+msgstr ""
+"Biztosítja, hogy az eredményhalmaz kizárja a megadott szerzőkhöz rendelt "
+"bejegyzéseket."
 
 #: inc/jwt/rest-api/version1/class-lp-rest-posts-controller.php:610
 msgid "Get item learned by user."
@@ -6305,12 +6376,16 @@ msgstr "Lekéri azokat az elemeket, amelyeket a felhasználó megtanult."
 
 #: inc/jwt/rest-api/version1/class-lp-rest-posts-controller.php:618
 msgid "Limit the result set to those of particular parent IDs."
-msgstr "Korlátozza az eredményhalmazt az adott szülő azonosítókkal rendelkező elemekre."
+msgstr ""
+"Korlátozza az eredményhalmazt az adott szülő azonosítókkal rendelkező "
+"elemekre."
 
 #: inc/jwt/rest-api/version1/class-lp-rest-posts-controller.php:627
 msgid ""
 "Limit the result set to all items except those of a particular parent ID."
-msgstr "Korlátozza az eredményhalmazt az adott szülő azonosítókkal nem rendelkező összes elemre."
+msgstr ""
+"Korlátozza az eredményhalmazt az adott szülő azonosítókkal nem rendelkező "
+"összes elemre."
 
 #: inc/jwt/rest-api/version1/class-lp-rest-quiz-v1-controller.php:58
 #: inc/jwt/rest-api/version1/class-lp-rest-quiz-v1-controller.php:76
@@ -6320,9 +6395,7 @@ msgstr "Kvíz azonosítója."
 
 #: inc/jwt/rest-api/version1/class-lp-rest-quiz-v1-controller.php:80
 msgid "Question ID."
-msgstr
-
- "Kérdés azonosítója."
+msgstr "Kérdés egyedi azonosítója"
 
 #: inc/jwt/rest-api/version1/class-lp-rest-quiz-v1-controller.php:102
 msgid "Answer all questions."
@@ -6707,9 +6780,7 @@ msgstr "Salvadori colón"
 
 #: inc/lp-core-functions.php:987
 msgid "Eritrean nakfa"
-msg
-
-str "Eritreai nakfa"
+msgstr ""
 
 #: inc/lp-core-functions.php:988
 msgid "Ethiopian birr"
@@ -6925,9 +6996,7 @@ msgstr "Namíbiai dollár"
 
 #: inc/lp-core-functions.php:1041
 msgid "Nepalese rupee"
-msgstr "
-
-Nepáli rúpia"
+msgstr ""
 
 #: inc/lp-core-functions.php:1042
 msgid "Nicaraguan córdoba"
@@ -7186,8 +7255,7 @@ msgstr "Kosárba helyezés átirányítása"
 
 #: inc/lp-core-functions.php:2267
 msgid "Redirect to checkout immediately after adding the course to the cart."
-msgstr ""
-"A kurzus kosárba helyezése után azonnal átirányítás a pénztárhoz."
+msgstr "A kurzus kosárba helyezése után azonnal átirányítás a pénztárhoz."
 
 #: inc/lp-core-functions.php:2273
 msgid "AJAX add to cart"
@@ -7232,59 +7300,57 @@ msgstr "Szerezz megfelelő jegyet"
 #: inc/lp-core-functions.php:3045
 msgid ""
 "Evaluate by the number of completed lessons per the total number of lessons."
-msgstr ""
-"Az elvégezett leckék számának értékelése a teljes leckeszámhoz képest."
+msgstr "Az elvégezett leckék számának értékelése a teljes leckeszámhoz képest."
 
 #: inc/lp-core-functions.php:3046
 msgid ""
 "E.g: If a course has 10 lessons and a user completes 5 lessons, then the "
 "result is 5/10 (50%)."
 msgstr ""
-"Példa: Ha egy kurzusnak 10 leckéje van, és a felhasználó elvégez 5 "
-"leckét, akkor az eredmény 5/10 (50%)."
+"Példa: Ha egy kurzusnak 10 leckéje van, és a felhasználó elvégez 5 leckét, "
+"akkor az eredmény 5/10 (50%)."
 
 #: inc/lp-core-functions.php:3048
 msgid ""
 "Evaluate by the result of the final quiz in the course. You have to add a "
 "quiz at the end of the course."
 msgstr ""
-"Értékelés a kurzus végén lévő végső kvíz eredménye alapján. Hozzá kell "
-"adnia egy kvízt a kurzus végéhez."
+"Értékelés a kurzus végén lévő végső kvíz eredménye alapján. Hozzá kell adnia "
+"egy kvízt a kurzus végéhez."
 
 #: inc/lp-core-functions.php:3054
 msgid ""
 "Evaluate by the number of passed quizzes per the total number of quizzes."
-msgstr ""
-"Az elvégzett kvízek számának értékelése a teljes kvízszámhoz képest."
+msgstr "Az elvégzett kvízek számának értékelése a teljes kvízszámhoz képest."
 
 #: inc/lp-core-functions.php:3055
 msgid ""
 "E.g: If the course has 10 quizzes and the user passes 5 quizzes, then the "
 "result is 5/10 (50%)."
 msgstr ""
-"Példa: Ha a kurzusnak 10 kvíze van, és a felhasználó 5 kvízt teljesít, "
-"akkor az eredmény 5/10 (50%)."
+"Példa: Ha a kurzusnak 10 kvíze van, és a felhasználó 5 kvízt teljesít, akkor "
+"az eredmény 5/10 (50%)."
 
 #: inc/lp-core-functions.php:3062
 msgid ""
 "Evaluate by the number of correct answers per the total number of questions."
-msgstr ""
-"A helyes válaszok számának értékelése a teljes kérdésszámhoz képest."
+msgstr "A helyes válaszok számának értékelése a teljes kérdésszámhoz képest."
 
 #: inc/lp-core-functions.php:3063
 msgid ""
 "E.g: If the course has 10 questions and the user corrects 5 questions, then "
 "the result is 5/10 (50%)."
 msgstr ""
-"Példa: Ha a kurzusnak 10 kérdése van, és a felhasználó 5 kérdést "
-"javít, akkor az eredmény 5/10 (50%)."
+"Példa: Ha a kurzusnak 10 kérdése van, és a felhasználó 5 kérdést javít, "
+"akkor az eredmény 5/10 (50%)."
 
 #: inc/lp-core-functions.php:3068
 msgid ""
 "Evaluate by the number of achieved scores per the total score of the "
 "questions."
 msgstr ""
-"Az elért pontszámok számának értékelése a kérdések teljes pontszámához képest."
+"Az elért pontszámok számának értékelése a kérdések teljes pontszámához "
+"képest."
 
 #: inc/lp-core-functions.php:3074
 msgid "Evaluate via lessons"
@@ -7316,10 +7382,10 @@ msgid ""
 "of the plugin. We highly recommend you backup your site before upgrading, "
 "and make sure you first update in a staging environment"
 msgstr ""
-"A legfrissebb frissítés jelentős változásokat tartalmaz a bővítmény különböző "
-"területein. Nagyon ajánljuk, hogy készítsen biztonsági másolatot az oldalról "
-"a frissítés előtt, és győződjön meg arról, hogy először frissíti egy "
-"tesztelési környezetben."
+"A legfrissebb frissítés jelentős változásokat tartalmaz a bővítmény "
+"különböző területein. Nagyon ajánljuk, hogy készítsen biztonsági másolatot "
+"az oldalról a frissítés előtt, és győződjön meg arról, hogy először frissíti "
+"egy tesztelési környezetben."
 
 #: inc/lp-deprecated.php:847 inc/templates/class-lp-template-general.php:49
 msgctxt "breadcrumb"
@@ -7374,12 +7440,6 @@ msgstr "Szakértő"
 #: inc/lp-webhooks.php:85
 msgid "LearnPress webhook %s process completed"
 msgstr "A LearnPress webhook %s folyamat befejeződött"
-
-#: inc/lp-webhooks.php:91
-msgid
-
- "The LearnPress webhook process is complete"
-msgstr "A LearnPress webhook folyamat befejeződött"
 
 #: inc/Models/UserItems/UserQuizModel.php:226
 #: inc/Models/UserItems/UserQuizModel.php:277
@@ -7501,14 +7561,6 @@ msgctxt "Order status"
 msgid "Failed"
 msgstr "Sikertelen"
 
-#: inc/order/lp-order-functions.php:744
-msgid "
-
-Failed <span class=\"count\">(%s)</span>"
-msgid_plural "Failed <span class=\"count\">(%s)</span>"
-msgstr[0] "Sikertelen <span class=\"count\">(%s)</span>"
-msgstr[1] "Sikertelen <span class=\"count\">(%s)</span>"
-
 #: inc/order/lp-order-functions.php:752
 msgid ""
 "Order received in case a user purchases a course but doesn't finalize the "
@@ -7618,8 +7670,8 @@ msgid ""
 "Congrats! You have re-taken this quiz. Please wait a moment and the page "
 "will reload"
 msgstr ""
-"Gratulálunk! Újra teljesítetted ezt a kvízt. Kérjük, várj egy pillanatot, és az "
-"oldal újratöltődik"
+"Gratulálunk! Újra teljesítetted ezt a kvízt. Kérjük, várj egy pillanatot, és "
+"az oldal újratöltődik"
 
 #: inc/rest-api/v1/admin/class-lp-admin-rest-course-controller.php:50
 msgid "No Course ID available!"
@@ -7930,9 +7982,7 @@ msgstr "Fájl sikeresen letöltve."
 
 #: inc/rest-api/v1/frontend/class-lp-rest-material-controller.php:367
 msgid "The file is not exist"
-msgstr "A fájl nem
-
- létezik"
+msgstr "A fájl nem létezik"
 
 #: inc/rest-api/v1/frontend/class-lp-rest-material-controller.php:387
 msgid "Updated."
@@ -8180,9 +8230,7 @@ msgstr "Az összes megtekintése"
 #: inc/TemplateHooks/Course/ListCoursesTemplate.php:720
 msgid "Free Course"
 msgid_plural "Free Courses"
-msgstr[
-
-0] "Ingyenes kurzus"
+msgstr[0] "Ingyenes kurzus"
 msgstr[1] "Ingyenes kurzusok"
 
 #: inc/TemplateHooks/Course/SingleCourseTemplate.php:254
@@ -8330,21 +8378,24 @@ msgstr "Felhasználó avatar"
 msgid ""
 "This content is protected. Please enroll in the course to view this content!"
 msgstr ""
-"Ez a tartalom védett. Kérlek iratkozz fel a kurzusra, hogy megtekinthesd ezt a tartalmat!"
+"Ez a tartalom védett. Kérlek iratkozz fel a kurzusra, hogy megtekinthesd ezt "
+"a tartalmat!"
 
 #: inc/user/class-lp-user.php:44
 msgid ""
 "This content is protected. Please log in or enroll in the course to view "
 "this content!"
 msgstr ""
-"Ez a tartalom védett. Kérlek jelentkezz be vagy iratkozz fel a kurzusra, hogy megtekinthesd ezt a tartalmat!"
+"Ez a tartalom védett. Kérlek jelentkezz be vagy iratkozz fel a kurzusra, "
+"hogy megtekinthesd ezt a tartalmat!"
 
 #: inc/user/class-lp-user.php:61
 msgid ""
 "You finished this course. This content is protected. Please enroll in the "
 "course to view this content!"
 msgstr ""
-"Befejezted ezt a kurzust. Ez a tartalom védett. Kérlek iratkozz fel a kurzusra, hogy megtekinthesd ezt a tartalmat!"
+"Befejezted ezt a kurzust. Ez a tartalom védett. Kérlek iratkozz fel a "
+"kurzusra, hogy megtekinthesd ezt a tartalmat!"
 
 #: inc/user/class-lp-user.php:67 templates/global/block-content.php:16
 msgid ""
@@ -8792,16 +8843,6 @@ msgstr "Vendégként"
 msgid "Enter your email..."
 msgstr "Add meg az e-mail címed..."
 
-#: templates/checkout/guest-checkout.php:26
-msgid ""
-"An order key to activate the course will be
-
- sent to your email after the "
-"payment has proceeded successfully."
-msgstr ""
-"A kurzus aktiválásához egy rendelési kulcsot küldünk az Ön e-mailjére, miután "
-"a fizetés sikeresen megtörtént."
-
 #: templates/checkout/guest-checkout.php:35
 msgctxt "checkout sign in link"
 msgid "Sign in"
@@ -8857,8 +8898,8 @@ msgid ""
 "By completing your purchase you agree to those <a href=\"%1$s\" "
 "target=\"_blank\">%2$s</a>."
 msgstr ""
-"A vásárlás befejezésével elfogadod a <a href=\"%1$s\" "
-"target=\"_blank\">%2$s</a>ot."
+"A vásárlás befejezésével elfogadod a <a href=\"%1$s\" target=\"_blank\">"
+"%2$s</a>ot."
 
 #: templates/content-lesson/button-complete.php:22
 msgid "Do you want to complete the lesson"
@@ -8937,31 +8978,28 @@ msgstr "Beküldés"
 
 #: templates/global/before-main-content.php:25
 msgid "The LearnPress <strong>Checkout</strong> page is not set up."
-msgstr "A LearnPress <strong>Ki- és bejelentkezés</strong> oldal nincs beállítva."
+msgstr ""
+"A LearnPress <strong>Ki- és bejelentkezés</strong> oldal nincs beállítva."
 
 #: templates/global/before-main-content.php:28
 msgid "Please contact the administrator to set up this page."
-msgstr "Kérjük, lépj kapcsolatba az adminisztrátorral, hogy beállíthasd ezt az oldalt."
+msgstr ""
+"Kérjük, lépj kapcsolatba az adminisztrátorral, hogy beállíthasd ezt az "
+"oldalt."
 
 #: templates/global/before-main-content.php:30
 msgid ""
 "Please <a href=\\\"%s\\\" target=\\\"_blank\\\">setup</a> it so users can "
 "purchase courses."
 msgstr ""
-"Kérjük, <a href=\\\"%s\\\" target=\\\"_blank\\\">állítsd be</a>, hogy a felhasználók vásárolhassák a kurzusokat."
+"Kérjük, <a href=\\\"%s\\\" target=\\\"_blank\\\">állítsd be</a>, hogy a "
+"felhasználók vásárolhassák a kurzusokat."
 
 #: templates/global/breadcrumb.php:31
 msgid "Search results for: "
 msgstr "Keresési találatok ehhez: "
 
 #: templates/global/form-login.php:17
-msgctxt "
-
-login-heading"
-msgid "Login"
-msgstr "Bejelentkezés"
-
-#: templates/global/form-login.php:48
 msgid "Login"
 msgstr "Bejelentkezés"
 
@@ -9030,7 +9068,8 @@ msgstr "Visszaállítás"
 
 #: templates/profile/not-logged-in.php:16
 msgid "Please <a href=\"%s\">login</a> to see your profile content"
-msgstr "Kérjük, <a href=\"%s\">jelentkezzen be</a>, hogy láthassa profil tartalmát"
+msgstr ""
+"Kérjük, <a href=\"%s\">jelentkezzen be</a>, hogy láthassa profil tartalmát"
 
 #: templates/profile/tabs/courses/course-grid.php:63
 #: templates/profile/tabs/courses/course-list.php:76
@@ -9090,8 +9129,8 @@ msgid ""
 "When you checkout as a Guest, an order key will be sent to your email. You "
 "can use the order key to create an order."
 msgstr ""
-"Amikor vendégként vásárolsz, egy rendelési kulcsot küldünk a megadott e-mail címre. "
-"A rendelési kulcsot használhatod a rendelés létrehozásához."
+"Amikor vendégként vásárolsz, egy rendelési kulcsot küldünk a megadott e-mail "
+"címre. A rendelési kulcsot használhatod a rendelés létrehozásához."
 
 #: templates/profile/tabs/quizzes.php:117
 msgid "No quizzes!"
@@ -9102,16 +9141,12 @@ msgid "Biographical Info"
 msgstr "Személyes adatok"
 
 #: templates/profile/tabs/settings/basic-information.php:59
-msgid "Share a little biographical information to fill out your profile. This may be shown publicly."
-msgstr "Osszon meg néhány önéletrajzi információt, hogy kitöltse a profilját. Ez nyilvánosan is megjelenhet."
-
-#: templates/profile/tabs/settings/change-password.php:21
-msgid "Old Password"
-msgstr "Régi jelszó"
-
-#: templates/profile/tabs/settings/change-password.php:23
-msgid "New Password"
-msgstr "Új jelszó"
+msgid ""
+"Share a little biographical information to fill out your profile. This may "
+"be shown publicly."
+msgstr ""
+"Osszon meg néhány önéletrajzi információt, hogy kitöltse a profilját. Ez "
+"nyilvánosan is megjelenhet."
 
 #: templates/profile/tabs/settings/change-password.php:25
 msgid "Confirm New Password"
@@ -9169,8 +9204,8 @@ msgid ""
 "This content is protected, please <a class=\\\"lp-link-login\\\" "
 "href=\\\"%s\\\">login</a> and enroll in the course to view this content!"
 msgstr ""
-"Ez a tartalom védett, kérjük, <a class=\\\"lp-link-login\\\" "
-"href=\\\"%s\\\">jelentkezzen be</a> és iratkozzon fel a kurzusra a tartalom megtekintéséhez!"
+"Ez a tartalom védett, kérjük, <a class=\\\"lp-link-login\\\" href=\\\"%s\\\">"
+"jelentkezzen be</a> és iratkozzon fel a kurzusra a tartalom megtekintéséhez!"
 
 #: templates/single-course/featured-review.php:18
 msgid "Featured Review"
