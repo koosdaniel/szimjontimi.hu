@@ -45,7 +45,7 @@ msgstr "Engedélyezés"
 
 #: config/settings.php:18
 msgid "Title"
-msgstr "Cím"
+msgstr "Név"
 
 #: config/settings.php:19
 msgid "Stripe"
@@ -53,7 +53,7 @@ msgstr "Stripe"
 
 #: config/settings.php:34
 msgid "Redirect Payment to Stripe Page"
-msgstr "Átirányítás a Stripe oldalráa fizetéshez"
+msgstr "Átirányítás a Stripe oldalára fizetéshez"
 
 #: config/settings.php:51
 msgid "Description"
