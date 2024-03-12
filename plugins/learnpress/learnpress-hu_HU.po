@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-01-29T09:55:55+03:00\n"
-"PO-Revision-Date: 2024-03-12 11:32+0000\n"
+"PO-Revision-Date: 2024-03-12 11:38+0000\n"
 "X-Generator: Loco https://localise.biz/\n"
 "X-Domain: learnpress\n"
 "Language: hu-HU\n"
@@ -2033,7 +2033,7 @@ msgstr "Pénznem pozíciója"
 
 #: templates/profile/tabs/settings/change-password.php:30
 msgid "Current password"
-msgstr ""
+msgstr "Jelenlegi jelszó"
 
 #: inc/admin/views/dashboard/plugin-status/html-results.php:38
 msgid "Current Version"
@@ -2990,8 +2990,8 @@ msgstr "Nem sikerült %1$d, Sikeres %2$d"
 #: inc/order/lp-order-functions.php:744
 msgid "Failed <span class=\"count\">(%s)</span>"
 msgid_plural "Failed <span class=\"count\">(%s)</span>"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Sikertelen <span class=\"count\">(%s)</span>"
+msgstr[1] "Sikertelen <span class=\"count\">(%s)</span>"
 
 #: inc/rest-api/v1/frontend/class-lp-rest-profile-controller.php:262
 msgid "Failed Course"
@@ -3940,7 +3940,7 @@ msgstr "Érvénytelen lépés"
 
 #: inc/handle-steps/class-lp-handle-steps.php:26
 msgid "Invalid steps"
-msgstr ""
+msgstr "Érvénytelen lépések"
 
 #: inc/jwt/rest-api/version1/class-lp-rest-users-v1-controller.php:322
 msgid "Invalid user ID."
@@ -4664,7 +4664,7 @@ msgstr "Sikeres bejelentkezés!"
 #: templates/global/form-login.php:17
 msgctxt "login-heading"
 msgid "Login"
-msgstr ""
+msgstr "Bejelentkezés"
 
 #: inc/user/class-lp-profile.php:344
 msgid "Logout"
@@ -4973,7 +4973,7 @@ msgstr "Új jelszó"
 
 #: templates/profile/tabs/settings/change-password.php:36
 msgid "New password"
-msgstr ""
+msgstr "Új jelszó"
 
 #: inc/admin/editor/class-lp-admin-editor-question.php:113 
 #: inc/curds/class-lp-question-curd.php:48
@@ -6618,7 +6618,7 @@ msgstr "Mentés"
 #: templates/profile/tabs/settings/change-password.php:59 
 #: templates/profile/tabs/settings/privacy.php:51
 msgid "Save changes"
-msgstr ""
+msgstr "Változtatások mentése"
 
 #: inc/admin/views/meta-boxes/fields/materials.php:153
 msgid "Save field"
